@@ -1,3 +1,8 @@
+/**
+ * MEMO
+ * ここの仕組みはちょっとルールを考えないといけないですが、基本的にはリプレイス形式でいいと思います。
+ */
+
 export const injectParamForHtml = (html, params) => {
   // textの置き換え
   Object.keys(params).forEach((key) => {
